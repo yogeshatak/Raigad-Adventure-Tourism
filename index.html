@@ -59,4 +59,116 @@
             color: #1b5e20;
             border-bottom: 3px solid #2e7d32;
             display: inline-block;
+            padding-bottom: 5px;
+        }
 
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .activities {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .fort-image {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Raigad Adventure Tourism</h1>
+    <p>Forts • Trekking • Nature • Adventure</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#forts">Forts</a>
+    <a href="#activities">Activities</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    Explore the Glory of Raigad Forts
+</div>
+
+<div class="container">
+
+    <div class="section" id="about">
+        <h2>About Raigad</h2>
+        <p>
+            Raigad district in Maharashtra is famous for its historical forts,
+            Sahyadri mountain ranges, waterfalls, beaches, and trekking routes.
+            It is a paradise for adventure lovers and history enthusiasts.
+        </p>
+    </div>
+
+    <div class="section" id="forts">
+        <h2>Famous Forts</h2>
+        <p>Raigad is home to many iconic forts built during the Maratha Empire.</p>
+        <img class="fort-image" 
+             src="https://upload.wikimedia.org/wikipedia/commons/5/56/Raigad_Fort_Maharashtra.jpg" 
+             alt="Raigad Fort">
+        <p>
+            <strong>Raigad Fort</strong> was the capital of Chhatrapati Shivaji Maharaj’s
+            kingdom and stands as a symbol of Maratha pride and bravery.
+        </p>
+    </div>
+
+    <div class="section" id="activities">
+        <h2>Adventure Activities</h2>
+        <div class="activities">
+            <div class="card">
+                <h3>Fort Trekking</h3>
+                <p>Trek to historic forts like Raigad, Rajgad, and Torna.</p>
+            </div>
+            <div class="card">
+                <h3>Camping</h3>
+                <p>Enjoy night camping with bonfire and local food.</p>
+            </div>
+            <div class="card">
+                <h3>Waterfall Rappelling</h3>
+                <p>Thrilling rappelling experiences during monsoon.</p>
+            </div>
+            <div class="card">
+                <h3>Beach Tourism</h3>
+                <p>Visit Alibaug, Kashid, and Murud beaches.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Email:</strong> info@raigadadventure.com</p>
+        <p><strong>Location:</strong> Raigad, Maharashtra</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Raigad Adventure Tourism | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
